@@ -21,8 +21,8 @@ There are two tests included:
 
 
 - `TestOriginal.py` - calculates the number of matching sums for every image
-- `TestModified.py` - compares the matching of the correct total sum and the calculated total sum
+- `TestModified.py` - calculates the total difference for the correct and the calculated sums for each image and then compares it to the correct total sum
 
 It should be noted that a .txt file containing the correct results is needed for testing.   
 # Results
-The most accurate and efficient solution is **BlackSumRegionsFixated**, taking the least time to finish and achieving a 16% accuracy using `TestOriginal.py` and a 99.8% accuracy using `TestModified.py` on test images. **BlackSumRegions** achieved a 3% and a 98% accuracy on `TestOriginal.py` and `TestModified.py`, respectfully. **Heatmaps** wasn't tested because after 30 minutes the process still was not finished on the test set. Using single images, the process returned less acurate results than the two previous methods.
+The most accurate and efficient solution is **BlackSumRegionsFixated**, taking the least time to finish and achieving a 16% accuracy using `TestOriginal.py` and a 95.7% accuracy using `TestModified.py` on test images. **BlackSumRegions** achieved a 3% and a 90.5% accuracy on `TestOriginal.py` and `TestModified.py`, respectfully. **Heatmaps** wasn't tested because after 30 minutes the process still was not finished on the test set. Using single images, the process returned less acurate results than the two previous methods.
