@@ -8,7 +8,7 @@ There are three proposed solutions:
 - `BlackSumRegionsFixated.py`
 - `Heatmaps.py`
 
-The training of the neural network is done in the `NetworkTrain.py` file. There are four neural network models included, each using a different amount of samples from the MNIST data set for the training.
+The training of the neural network is done in the `NetworkTrain.py` file. There are four neural network models included, each using a different amount of samples from the MNIST data set for the training. The `model10000.h5` is used for the prediction in each file, and the final results are based on its usage.
 
 ## BlackSumRegions
 Using regions, try to determine the area where the numbers are located in the image. Then pass through the area with a sliding block (window) and find the best match using the predictions of the neural network.
